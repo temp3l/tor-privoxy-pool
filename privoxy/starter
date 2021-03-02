@@ -1,0 +1,44 @@
+#!/bin/bash
+
+/usr/sbin/privoxy --pidfile /tmp/privoxy.pid --user privoxy /etc/privoxy/config
+echo "started 10100" 
+/usr/sbin/privoxy --pidfile /tmp/privoxy1.pid --user privoxy /etc/privoxy/config1
+echo "started 10101" 
+/usr/sbin/privoxy --pidfile /tmp/privoxy2.pid --user privoxy /etc/privoxy/config2
+echo "started 10102" 
+/usr/sbin/privoxy --pidfile /tmp/privoxy3.pid --user privoxy /etc/privoxy/config3
+echo "started 10103" 
+/usr/sbin/privoxy --pidfile /tmp/privoxy4.pid --user privoxy /etc/privoxy/config4
+echo "started 10104" 
+/usr/sbin/privoxy --pidfile /tmp/privoxy5.pid --user privoxy /etc/privoxy/config5
+echo "started 10105" 
+/usr/sbin/privoxy --pidfile /tmp/privoxy6.pid --user privoxy /etc/privoxy/config6
+echo "started 10106" 
+/usr/sbin/privoxy --pidfile /tmp/privoxy7.pid --user privoxy /etc/privoxy/config7
+echo "started 10107"
+/usr/sbin/privoxy --pidfile /tmp/privoxy8.pid --user privoxy /etc/privoxy/config8
+echo "started 10108"
+/usr/sbin/privoxy --pidfile /tmp/privoxy9.pid --user privoxy /etc/privoxy/config9
+echo "started 10109"
+/usr/sbin/privoxy --pidfile /tmp/privoxy10.pid --user privoxy /etc/privoxy/config10
+echo "started 10110"
+/usr/sbin/privoxy --pidfile /tmp/privoxy11.pid --user privoxy /etc/privoxy/config11
+echo "started 10111"
+/usr/sbin/privoxy --pidfile /tmp/privoxy12.pid --user privoxy /etc/privoxy/config12
+echo "started 10112"
+/usr/sbin/privoxy --pidfile /tmp/privoxy13.pid --user privoxy /etc/privoxy/config13
+echo "started 10113"
+/usr/sbin/privoxy --pidfile /tmp/privoxy14.pid --user privoxy /etc/privoxy/config14
+echo "started 10114"
+/usr/sbin/privoxy --pidfile /tmp/privoxy15.pid --user privoxy /etc/privoxy/config15
+echo "started 10115"
+/usr/sbin/privoxy --pidfile /tmp/privoxy16.pid --user privoxy /etc/privoxy/config16
+echo "started 10116"
+/usr/sbin/privoxy --pidfile /tmp/privoxy17.pid --user privoxy /etc/privoxy/config17
+echo "started 10117"
+/usr/sbin/privoxy --pidfile /tmp/privoxy18.pid --user privoxy /etc/privoxy/config18
+echo "started 10118"
+/usr/sbin/privoxy --pidfile /tmp/privoxy19.pid --user privoxy /etc/privoxy/config19
+echo "started 10119"
+/usr/sbin/privoxy --pidfile /tmp/privoxy20.pid --user privoxy /etc/privoxy/config20
+echo "started 10120"

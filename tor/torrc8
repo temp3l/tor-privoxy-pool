@@ -1,0 +1,25 @@
+VirtualAddrNetworkIPv4 10.192.0.0/10
+
+AutomapHostsOnResolve 1
+TransPort 9701 IsolateClientAddr IsolateClientProtocol IsolateDestAddr IsolateDestPort
+DNSPort 5472
+
+SocksPort 0.0.0.0:10016
+SocksPort 0.0.0.0:10017
+
+SocksPolicy accept 192.168.0.0/16
+SocksPolicy reject *
+
+DataDirectory /var/lib/tor8
+PidFile /run/tor8/tor.pid
+RunAsDaemon 1
+User debian-tor
+
+ControlSocket /run/tor8/control GroupWritable RelaxDirModeCheck
+ControlSocketsGroupWritable 1
+SocksPort unix:/run/tor8/socks WorldWritable
+
+CookieAuthentication 1
+CookieAuthFileGroupReadable 1
+CookieAuthFile /run/tor8/control.authcookie
+

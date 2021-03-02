@@ -1,0 +1,18 @@
+sudo killall tor
+sudo mkdir -p /run/tor0 /var/lib/tor0 /var/lib/tor2 /run/tor2 /var/lib/tor3 /run/tor3 /var/lib/tor4 /run/tor4 /var/lib/tor5 /run/tor5 /var/lib/tor1 /run/tor1 /var/lib/tor6 /run/tor6
+sudo mkdir -p /var/lib/tor7 /run/tor7 /var/lib/tor8 /run/tor8 /var/lib/tor9 /run/tor9 /var/lib/tor10 /run/tor10 /var/lib/tor11 /run/tor11 /var/lib/tor12 /run/tor12
+
+
+sudo chown -R debian-tor:debian-tor /var/lib/tor* /run/tor*
+
+sudo /usr/bin/tor -f /etc/tor/torrc --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc1 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc2 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc3 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc4 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc5 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc6 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc7 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc8 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc9 --RunAsDaemon 1
+sudo /usr/bin/tor -f /etc/tor/torrc10 --RunAsDaemon 1
